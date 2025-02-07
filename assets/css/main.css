@@ -355,7 +355,7 @@ h6 {
     padding: 10px 0;
     margin: 0;
     border-radius: 6px;
-    background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    background: rgb(255, 255, 255); /* Fundo semi-transparente */
   backdrop-filter: blur(10px); /* Efeito de desfoque */
     overflow-y: auto;
     transition: 0.3s;
@@ -365,7 +365,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: white;
+    color: rgb(102, 102, 102);
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
